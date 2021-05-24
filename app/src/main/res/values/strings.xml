@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GargabeSorter</string>
+    <string name="play">Играть</string>
+    <string name="start">Начать</string>
+    <string name="back">Назад</string>
+    <string name="finish">Завершить</string>
+</resources>

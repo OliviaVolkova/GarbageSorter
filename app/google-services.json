@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42280008708",
+    "project_id": "garbagesorter-dbbef",
+    "storage_bucket": "garbagesorter-dbbef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42280008708:android:43c058a4793b861c04c951",
+        "android_client_info": {
+          "package_name": "com.example.gargabesorter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42280008708-e0qjdcjsv3t5al8aj6hrhr7id5ch6jd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAolPFnCuMErKk6MgZuzZ5Yh_ngjVTsYtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42280008708-e0qjdcjsv3t5al8aj6hrhr7id5ch6jd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

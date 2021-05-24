@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/routes"
+    app:startDestination="@id/menuFragment">
+
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.gargabesorter.presentation.menu.MenuFragment"
+        android:label="MenuFragment">
+        <action
+            android:id="@+id/action_menuFragment_to_diffucultFragment"
+            app:destination="@id/diffucultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.gargabesorter.presentation.game.GameFragment"
+        android:label="GameFragment"
+        >
+        <argument android:name="difficultId"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/diffucultFragment"
+        android:name="com.example.gargabesorter.presentation.levels.LevelsFragment"
+        android:label="DiffucultFragment">
+        <action
+            android:id="@+id/action_diffucultFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+
+</navigation>
